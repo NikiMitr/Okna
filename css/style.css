@@ -1,0 +1,456 @@
+@font-face {
+	font-family: 'Montserrat-Black';
+	src: url(../fonts/static/Montserrat-Black.ttf);
+}
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+.wrap{
+	display: flex;
+	flex-direction: row;/*выстраивает в стpочку*/ 
+	justify-content: space-between;/*ростягивает по всей ширине*/
+	align-items: center;/*вырвнивание по вертикали*/
+}
+.menu li{
+	display: inline-block;
+	vertical-align: middle;/*выравнивание по вертикали центру*/
+	margin: 0 10px 0 10px;/*отступы*/
+}
+
+.menu{
+	text-align: center;/*выравнивание по горизонтали*/
+}
+.menu li a{
+	color: #000;
+}
+.menu li a:hover{
+	color: red;
+	transform: scale(1.3);
+	transition: 1.3ss;
+	display: inline-block;
+}
+
+
+.body{
+	font-family: 'Monsterrat-Black' ;
+}
+
+
+.first-block{
+	background-image: url(../img/окно.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.rt{
+	margin-left: 500px;
+}
+
+.first-block h3{
+	display: inline-block;/*выравнивание строчку*/
+	vertical-align: middle;
+
+}
+.dot{
+	width: 6px;
+	height: 6px;
+	background-color: black;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 100%;
+}
+.btn{
+	border: 3px solid #0abf65;
+	color: #0abf65;
+	font-size: 15pt;
+	width: 200px;
+	height: 50px;
+	border-radius: 25px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+.btn:hover{
+	background-color: #0abf65;
+	border: 3px solid #0abf65;
+	color:white;
+}
+
+.btn2{
+	margin: 0 auto;
+	border: 3px solid #0abf65;
+	color: #fff;
+	font-size: 15pt;
+	width: 320px;
+	height: 50px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	background-color: #0abf65;
+	cursor: pointer;
+
+}
+
+.chek{
+	width: 10px;
+	height: 10px;
+	background-color: orange;
+	display: inline-block;
+	line-height: 10px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 100%;
+
+}
+.item{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.item-block{
+	margin: 0 auto;
+	width: 422px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.item-price{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.price{text-align: center;}
+
+.item-price ul span{
+	color: orangered;
+	font-weight: bold;
+}
+
+.item-price ul{
+	list-style: none;
+	padding: 0;
+}
+
+.btn-zakaz{
+	margin: 0 auto;
+	border: 3px solid #0abf65;
+	color: #fff;
+	font-size: 15pt;
+	width: 150px;
+	height: 50px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	background-color: #0abf65;
+}
+
+.price{
+	background-image: url(../img/fon1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+.btn-zakaz:hover{
+	background-color: aqua;
+}
+
+.pig{
+	color: black;
+}
+
+.pig:hover{
+	display:inline-block;
+	transform:scale(1.2);
+	color: #0abf65;
+	transition: 1s;
+}
+
+.btn2:hover{
+	background-color: white;
+	border: 3px solid white;
+	color: #0abf65;
+}
+
+.item-preim img{
+	width: 100px;
+	height: auto;
+	background-position: center center;
+}
+
+.item-preim{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	text-align: center;
+}
+
+.title-preim{
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.preim{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.preim{
+	background-image: url(../img/holodnoe-osteklenie-balkonov-15.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.rabota{
+    margin-top: 0;
+    text-align: center; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+	position:relative;
+}
+
+.item-rabota img{
+    height: 70px;
+    width: auto;
+    padding: 15px;
+    
+
+}
+
+.item-rabota{
+    margin: 0 auto;
+    display:inline-block;
+	vertical-align: top;
+    padding: 0 auto;
+	position: relative;
+	z-index: 1000;
+}
+.item-rabota h1{
+    font-size: 40px;
+    color: #0abf65;
+}
+.item-rabota{
+    padding-left: 50px;
+}
+
+.krug{
+	border: 1px solid orange;
+    border-radius: 100%;
+	padding: 10px;
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+	background: #fff;
+}
+
+.line{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 245px;
+	width: 100%;
+	border-bottom: 1px solid orange;
+}
+
+.item2 .chek{
+	background-color: transparent;
+	border: 1px solid #000;
+
+}
+
+.item2{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+	text-align: left;
+}
+
+.novyi-block{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.btn-blue{
+	margin: 0 auto;
+	border: 3px solid #6699cc;
+	color: #fff;
+	font-size: 15pt;
+	width: 180px;
+	height: 50px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	background-color: #6699cc;
+	display: inline-block;
+	vertical-align: middle;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+
+}
+
+.btn-blue:hover{
+	background-color: blue;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.img-sklad{
+	width: 20px;
+}
+
+.item-sklad{
+	background-color: #ccc;
+	display: inline-block;
+	padding: 20px;
+	margin: 50px;
+}
+
+.title-sklad{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.text-sklad{
+	margin-bottom: 20px;
+}
+
+.form{
+	text-align: center;
+	display: inline-flex;
+	margin-left: 270px;
+	padding: 50px;
+	background-color: rgba(1,47,87, .9);
+}
+
+.form2{
+	margin-left: 100px;
+}
+
+
+.btn-otpr{
+	margin: 0 auto;
+	border: 3px solid #6699cc;
+	color: #fff;
+	font-size: 15pt;
+	width: 180px;
+	height: 50px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	background-color: #6699cc;
+	display: block;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+
+}
+
+.btn-otpr:hover{
+	margin: 0 auto;
+	border: 3px solid #5b656f;
+	color: #fff;
+	font-size: 15pt;
+	width: 180px;
+	height: 50px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	background-color: #5b656f;
+	display: block;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+.modal{
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: none;
+}
+
+.modal form{
+	width: 250px;
+	background: #fff;
+	padding: 15px;
+	margin: 50px auto 0;
+}
+
+.modal form input{
+	display: block;
+	margin: 0 auto 20px;
+	width: 220px;
+	height: 30px;
+	padding: 15px;
+	font-size: 18px;
+}
+
+.btn-form{
+	margin: 0 auto;
+	border: 3px solid #6699cc;
+	color: #fff;
+	font-size: 15pt;
+	width: 180px;
+	height: 50px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #6699cc;
+	display: block;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+
+}
+
+.btn-form:hover{
+	margin: 0 auto;
+	border: 3px solid #5b656f;
+	color: #fff;
+	font-size: 15pt;
+	width: 180px;
+	height: 50px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #5b656f;
+	display: block;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+.active{
+	display: block;
+}
